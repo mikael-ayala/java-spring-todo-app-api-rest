@@ -9,6 +9,7 @@ import org.springframework.context.annotation.Configuration;
 public class OpenApiConfig {
     @Bean
     public OpenAPI customOpenAPI() {
-        return new OpenAPI().addServersItem(new Server().url("/"));
+        return new OpenAPI().addServersItem(new Server().url("https://todo-app-prd.up.railway.app/"))
+                .addServersItem(new Server().url("http://localhost:8080"));
     }
 }
