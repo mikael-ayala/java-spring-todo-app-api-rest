@@ -66,6 +66,5 @@ public class UserService {
         ToDo toDo = toDoRepository.findById(idToDo).orElseThrow(NoSuchElementException::new);
         user.getToDoList().remove(toDo);
         toDoRepository.delete(toDo);
-        userRepository.save(user);
     }
 }
