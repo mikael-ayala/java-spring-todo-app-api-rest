@@ -27,8 +27,7 @@
 ## Deploy na nuvem
 O projeto está disponível para ser testado na nuvem através do Railway que também está provisionando um banco de dados PostgresSQL para salvar os dados.
 
-[O projeto pode ser acessado aqui.](https://todo-app-prd.up.railway.app/swagger-ui/index.html#/)
-
+<a href="https://todo-app-prd.up.railway.app/swagger-ui/index.html#/" target="_blank">O projeto pode ser acessado aqui.</a>
 
 </br>
 
